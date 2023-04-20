@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5的响应式网站</title>
+    <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="toTop text-center">
+      <a href="#top">
+        <i class="bi bi-arrow-bar-up fs-2"></i>
+      </a>
+    </div>
+    <!--头部 -->
+    <header class="header-top">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top navBox">
+        <div class="container">
+          <a href="#" class="navbar-brand text-light">FOOD</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#demo"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            id="demo"
+            class="collapse navbar-collapse justify-content-between"
+          >
+            <!-- 折叠导航 -->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">首页</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">企业服务</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">产品服务</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">关于我们</a>
+              </li>
+            </ul>
+            <!-- 搜索框 -->
+            <div class="navbar-nav my-3">
+              <form class="navbar-form">
+                <div class="row">
+                  <div class="col-8 position-relative">
+                    <input
+                      class="form-control ps-4"
+                      type="text"
+                      placeholder="搜索"
+                    />
+                    <i class="bi bi-search search"></i>
+                  </div>
+                  <div class="col-4">
+                    <button class="btn btn-light">搜索</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="background">
+        <div class="backgroundBox text-center position-relative">
+          <div class="title">
+            <h1 class="display-1 fw-bold">What's Cooking</h1>
+            <p class="fw-bold">
+              Browse Our Gallery For Dependably Delicious Recipes.
+            </p>
+            <button class="btn btn-success">READ maiores</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- 第二部分 -->
+
+    <section class="position-relative">
+      <!-- 一模块 -->
+      <div class="container titleBox">
+        <div class="p-3 border d-inline-block bg-light">
+          <h1 class="h1">Latest Articles</h1>
+          <p class="small">Check out our most recent blog posts!</p>
+        </div>
+      </div>
+      <div class="container mt-3">
+        <div class="row">
+          <div class="card bg-light my-3">
+            <!-- 一整行盒子 -->
+            <div class="row card-body">
+              <!-- 图片 -->
+              <div class="col-md-6 my-2 imgHover">
+                <img
+                  src="./image/d2795ef7e6d44b3b81adce1aeb18f71b.jpg"
+                  width="100%"
+                />
+              </div>
+              <!-- 内容 -->
+              <div class="col-md-6">
+                <h2 class="card-title">The Fastest Way to Space</h2>
+                <p class="card-text my-4">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Cumque, qui aliquam quasi quos fuga dolorum? Quam molestias
+                  nostrum animi fugit exercitationem placeat sequi iure
+                  obcaecati. A ipsam facere voluptatem veniam!
+                </p>
+                <button type="button" class="btn btn-success">
+                  Take the Tour
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Book Tickets Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card bg-light my-3">
+            <!-- 行内容 -->
+            <div class="row card-body">
+              <div class="col-lg-6">
+                <h2 class="card-title">The Fastest Way to Space</h2>
+                <p class="card-text my-4">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptas officia recusandae dolore, aliquam tempore,
+                  praesentium temporibus velit incidunt, deleniti tempora
+                  fugiat. Mollitia omnis neque quam excepturi ipsam tempore
+                  itaque. Deleniti?
+                </p>
+                <button type="button" class="btn btn-success">
+                  Take the Tour
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Book Tickets Now
+                </button>
+              </div>
+              <!-- 图片 -->
+              <div class="col-lg-6 my-2 imgHover">
+                <img
+                  src="./image/c89083824f074c0bad71a976de306a83.jpg"
+                  width="100%"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4 col-sm-12">
+            <i class="bi bi-airplane-engines-fill fs-2"></i>
+            <h3>Book Today!</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              veniam repellendus error laudantium cupiditate velit earum, dolor
+              nam dolores quidem eum facilis eos animi obcaecati. Quaerat
+              deserunt vitae maiores excepturi?
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <i class="bi bi-amd fs-2"></i>
+            <h3>Go Anywhere</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
+              eos architecto, ad quia impedit ex, ratione ab molestiae, suscipit
+              provident a quaerat deserunt animi quasi magnam voluptate iusto
+              quod optio!
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <i class="bi bi-archive-fill fs-2"></i>
+            <h3>RocketBus@!</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+              aperiam quam perspiciatis beatae laboriosam necessitatibus iure
+              cum, rerum eveniet illum sapiente aut voluptatem rem, quae ab.
+              Enim omnis corrupti ratione.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container titleBox mt-3">
+        <div class="p-3 border d-inline-block bg-light">
+          <h1 class="h1">Taste Makers</h1>
+          <p class="small">Feast your eyes on our latest recipes!</p>
+        </div>
+      </div>
+      <div class="container mt-3">
+        <form action="">
+          <div class="input-group">
+            <button
+              class="btn btn-dark dropdown-toggle"
+              data-bs-toggle="dropdown"
+            >
+              下拉按钮
+            </button>
+            <ul class="dropdown-menu">
+              <li class="dropdown-header">下拉菜单</li>
+              <li class="dropdown-item">链接1</li>
+              <li class="dropdown-item">链接1</li>
+              <li class="dropdown-item">链接1</li>
+              <li class="dropdown-divider"></li>
+              <li class="dropdown-item">链接1</li>
+              <li class="dropdown-item">链接1</li>
+            </ul>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="请输入搜索内容"
+            />
+            <button class="btn btn-success">
+              <i class="bi bi-search search"></i> 搜索内容
+            </button>
+          </div>
+        </form>
+        <div class="mt-3 flexBox">
+          <div class="card p-3 smimgHover">
+            <img
+              class="card-img-top"
+              src="./image/81d1da7e1ba142629967fea196c73e0e.jpg"
+            />
+            <h3 class="card-title my-4">The Fastest Way to Space</h3>
+            <p class="card-text my-4">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque,
+              qui aliquam quasi quos fuga dolorum? Quam molestias nostrum animi
+              fugit exercitationem placeat sequi iure obcaecati. A ipsam facere
+              voluptatem veniam!
+            </p>
+            <button type="button" class="btn btn-success my-3">
+              Take the Tour
+            </button>
+            <button type="button" class="btn btn-primary">
+              Book Tickets Now
+            </button>
+          </div>
+          <div class="card p-3 smimgHover">
+            <img
+              class="card-img-top"
+              src="./image/3f878fc75ad84405bffa29a309238655.jpg"
+            />
+            <h3 class="card-title my-4">The Fastest Way to Space</h3>
+            <p class="card-text my-4">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque,
+              qui aliquam quasi quos fuga dolorum? Quam molestias nostrum animi
+              fugit exercitationem placeat sequi iure obcaecati. A ipsam facere
+              voluptatem veniam!
+            </p>
+            <button type="button" class="btn btn-success my-3">
+              Take the Tour
+            </button>
+            <button type="button" class="btn btn-primary">
+              Book Tickets Now
+            </button>
+          </div>
+          <div class="card p-3 smimgHover">
+            <img
+              class="card-img-top"
+              src="./image/1ae218a3a9f045179e967b6fa09e6e9c.jpg"
+            />
+            <h3 class="card-title my-4">The Fastest Way to Space</h3>
+            <p class="card-text my-4">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque,
+              qui aliquam quasi quos fuga dolorum? Quam molestias nostrum animi
+              fugit exercitationem placeat sequi iure obcaecati. A ipsam facere
+              voluptatem veniam!
+            </p>
+            <button type="button" class="btn btn-success my-3">
+              Take the Tour
+            </button>
+            <button type="button" class="btn btn-primary">
+              Book Tickets Now
+            </button>
+          </div>
+          <div class="card p-3 smimgHover">
+            <img
+              class="card-img-top"
+              src="./image/020a1051d89f40bd92ad4ce455860ff5.jpg"
+            />
+            <h3 class="card-title my-4">The Fastest Way to Space</h3>
+            <p class="card-text my-4">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque,
+              qui aliquam quasi quos fuga dolorum? Quam molestias nostrum animi
+              fugit exercitationem placeat sequi iure obcaecati. A ipsam facere
+              voluptatem veniam!
+            </p>
+            <button type="button" class="btn btn-success my-3">
+              Take the Tour
+            </button>
+            <button type="button" class="btn btn-primary">
+              Book Tickets Now
+            </button>
+          </div>
+          <div class="card p-3 smimgHover">
+            <img
+              class="card-img-top"
+              src="./image/4dd06e4787714b08a2d56b5528569a67.jpg"
+            />
+            <h3 class="card-title my-4">The Fastest Way to Space</h3>
+            <p class="card-text my-4">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque,
+              qui aliquam quasi quos fuga dolorum? Quam molestias nostrum animi
+              fugit exercitationem placeat sequi iure obcaecati. A ipsam facere
+              voluptatem veniam!
+            </p>
+            <button type="button" class="btn btn-success my-3">
+              Take the Tour
+            </button>
+            <button type="button" class="btn btn-primary">
+              Book Tickets Now
+            </button>
+          </div>
+          <div class="card p-3 smimgHover">
+            <img
+              class="card-img-top"
+              src="./image/6e501611880511ebb6edd017c2d2eca2.jpg"
+            />
+            <h3 class="card-title my-4">The Fastest Way to Space</h3>
+            <p class="card-text my-4">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque,
+              qui aliquam quasi quos fuga dolorum? Quam molestias nostrum animi
+              fugit exercitationem placeat sequi iure obcaecati. A ipsam facere
+              voluptatem veniam!
+            </p>
+            <button type="button" class="btn btn-success my-3">
+              Take the Tour
+            </button>
+            <button type="button" class="btn btn-primary">
+              Book Tickets Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="background2 mt-3">
+        <div class="back2Box float-end">
+          <div class="p-5">
+            <h1 class="fw-bold text-success">Subscribe</h1>
+            <p class="fw-bold">
+              Join our newsletter to receive exclusive news and information.
+            </p>
+          </div>
+          <form action="" class="p-5">
+            <div>
+              <label for="acount" class="form-label">Name</label>
+              <div class="row">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    id="acount"
+                    class="form-control"
+                    placeholder="First"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    id="acount"
+                    class="form-control"
+                    placeholder="Last"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="mt-4">
+              <label for="acount" class="form-label">Email</label>
+              <input
+                type="text"
+                id="acount"
+                class="form-control"
+                placeholder="First"
+              />
+            </div>
+            <button class="btn btn-success mt-4" style="width: 100%">
+              SUBSCRIBE
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-light mt-5 py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 col-6">
+            <h5>常见问题</h5>
+            <ul class="list-unstyled">
+              <li>Lorem, ipsum.</li>
+              <li>Et, magni!</li>
+              <li>Voluptatibus, saepe?</li>
+            </ul>
+          </div>
+          <div class="col-sm-3 col-6">
+            <h5>常见问题</h5>
+            <ul class="list-unstyled">
+              <li>Lorem, ipsum.</li>
+              <li>Quae, aut!</li>
+              <li>Doloremque, enim.</li>
+            </ul>
+          </div>
+          <div class="col-sm-3 col-6">
+            <h5>常见问题</h5>
+            <ul class="list-unstyled">
+              <li>Lorem, ipsum.</li>
+              <li>Harum, quaerat?</li>
+              <li>Odit, modi.</li>
+            </ul>
+          </div>
+          <div class="col-sm-3 col-6">
+            <h5>常见问题</h5>
+            <ul class="list-unstyled">
+              <li>Lorem, ipsum.</li>
+              <li>Quia, neque.</li>
+              <li>Ea, libero!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-2">
+        <p class="text-center">Responsive Html ©2023 Created by 悍匪 ly</p>
+      </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script>
+      window.addEventListener("scroll", function () {
+        //获取元素
+        var header = document.querySelector(".navBox"); //querySelector() 方法返回文档中匹配指定 CSS 选择器的一个元素。
+        // 添加类
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+  </body>
+</html>
